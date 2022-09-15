@@ -8,3 +8,5 @@ sum(is.na(av))
 
 av$sma <- SMA(av[,"Close"], n=20)
 av$bbands <- BBands( av[,c("High","Low","Close")] )
+
+#test
